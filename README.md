@@ -1,1 +1,2 @@
 # Anagram-Solver-with-updated-decoder-
+Solves large anagrams using Tensorflow. Here we try to solve anagrams using seq2seq package of Tensorflow. The file dicn.py is for creating the dictionary and preprocessing the raw text file into integer tokens. English Penn Tree bank is used for training the model. The model.py trains the alogorithm as well as tests the algorithm on development set. For training the flag for "decode" is set to False and for sampling from the model the "decode" flag is set to True.
